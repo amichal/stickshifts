@@ -10,7 +10,7 @@ require 'text-table'
 require 'active_support/core_ext/string'
 
 
-bits = open('http://bestride.com/research/buyers-guide/manual-transmission-availability-2016-2017#car1manual-transmission-availability-2016-2017')
+bits = open('http://bestride.com/research/buyers-guide/manual-transmission-availability-2016-2017')
 
 doc = Nokogiri::HTML(bits)
 
