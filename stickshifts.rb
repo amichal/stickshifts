@@ -16,9 +16,13 @@ doc = Nokogiri::HTML(bits)
 
 
 def fetch_kbb(path)
-  Nokogiri::HTML(open("https://www.kbb.com#{path}"))
+  url = "https://www.kbb.com#{path}"
+  if !OpenURI::Cache.get(url)
+    sleep(0.1) # dont hammer KBB
+  end
+  Nokogiri::HTML(open(url))
 rescue OpenURI::HTTPError => err
-  #STDERR.puts "#{path} #{err.message}"
+  #STDERR.puts "#{url} #{err.message}"
   nil
 end
 
@@ -72,8 +76,9 @@ doc.css('p > strong').each do |n|
   }
   model = funny_model_names[[make,model]] || model
 
+  # go ask KBB for data on the model and styles (aka trims)
+  # for 2016
   kbb_url = "/#{make.parameterize}/#{model.parameterize}/2016/"
-
   options = {}
   if (kbb_data = fetch_kbb(kbb_url))
     options = kbb_data.css('#Styles-dropdown-subtitle option').map do |n|
@@ -84,16 +89,18 @@ doc.css('p > strong').each do |n|
     end
   end
 
-  # FIXME: report cars we cant find trims for so we can fix them up
+  # report cars we cant find trims for so we can fix them up
   if options.size == 0
     data << {
       category: @current_category,
       make: make,
       model: model,
       trim: nil,
+      trim_url: nil,
       kbb_true_price: nil
     }
   else
+    # report pricing for each style group
     options.each do |url, trim|
       params = CGI::parse(url.split('?',2).last)
       trim_url = "#{url.gsub('/options','')}"
