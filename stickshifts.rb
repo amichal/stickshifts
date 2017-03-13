@@ -4,9 +4,7 @@ OpenURI::Cache.cache_path = "#{File.dirname(__FILE__)}/tmp/cache"
 FileUtils.mkdir_p OpenURI::Cache.cache_path
 
 require 'nokogiri';
-require 'uri'
-require 'pp'
-require 'text-table'
+require 'csv'
 require 'active_support/core_ext/string'
 
 
@@ -72,7 +70,8 @@ doc.css('p > strong').each do |n|
   funny_model_names = {
     ['Mazda','3'] => 'MAZDA3',
     ['Mazda','6'] => 'MAZDA6',
-    ['Mini','Mini'] => 'Countryman'
+    ['Mini','Mini'] => 'Countryman',
+    ['Subaru','WRX and WRX STi'] => 'WRX'
   }
   model = funny_model_names[[make,model]] || model
 
@@ -96,16 +95,16 @@ doc.css('p > strong').each do |n|
       make: make,
       model: model,
       trim: nil,
+      kbb_true_price: nil,
       trim_url: nil,
-      kbb_true_price: nil
     }
   else
     # report pricing for each style group
     options.each do |url, trim|
       params = CGI::parse(url.split('?',2).last)
-      trim_url = "#{url.gsub('/options','')}"
+      trim_path = "#{url.gsub('/options','')}"
       kbb_true_price = nil
-      if (trim_data = fetch_kbb(trim_url))
+      if (trim_data = fetch_kbb(trim_path))
         kbb_true_price = trim_data.at_css('.market-info strong').try(:text)
       end
       data << {
@@ -113,12 +112,17 @@ doc.css('p > strong').each do |n|
         make: make,
         model: model,
         trim: trim,
-        trim_url: trim_url,
-        kbb_true_price: kbb_true_price
+        kbb_true_price: kbb_true_price,
+        trim_url: "https://www.kbb.com#{trim_path}",
       }
     end
   end
 end
 
-puts Text::Table.new(head: data.first.keys, rows: data.map(&:values))
+puts data.first.keys.to_csv
+data.map(&:values).each do |row|
+  puts row.to_csv
+end
+
+#puts Text::Table.new(head: data.first.keys, rows: data.map(&:values))
 

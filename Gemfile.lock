@@ -10,7 +10,6 @@ GEM
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
     open-uri-cached (0.0.5)
-    text-table (1.2.4)
 
 PLATFORMS
   ruby
@@ -19,7 +18,6 @@ DEPENDENCIES
   activesupport
   nokogiri
   open-uri-cached
-  text-table
 
 RUBY VERSION
    ruby 2.4.0p0
