@@ -1,5 +1,6 @@
 require 'open-uri/cached';
 require 'fileutils';
+
 OpenURI::Cache.cache_path = "#{File.dirname(__FILE__)}/tmp/cache"
 FileUtils.mkdir_p OpenURI::Cache.cache_path
 
@@ -7,11 +8,7 @@ require 'nokogiri';
 require 'csv'
 require 'active_support/core_ext/string'
 
-
-bits = open('http://bestride.com/research/buyers-guide/manual-transmission-availability-2016-2017')
-
-doc = Nokogiri::HTML(bits)
-
+doc = Nokogiri::HTML open('http://bestride.com/research/buyers-guide/manual-transmission-availability-2016-2017')
 
 def fetch_kbb(path)
   url = "https://www.kbb.com#{path}"
@@ -62,11 +59,12 @@ doc.css('p > strong').each do |n|
     break if nodes_checked >= max_nodes_to_check
     desc_node = desc_node.next_element
   end
+
+  # make and model
   make = makers.detect do |m|
     name.include? m
   end || name.split(' ').first
   model = name.gsub(make,'').strip.presence || name
-
   funny_model_names = {
     ['Mazda','3'] => 'MAZDA3',
     ['Mazda','6'] => 'MAZDA6',
@@ -88,7 +86,8 @@ doc.css('p > strong').each do |n|
     end
   end
 
-  # report cars we cant find trims for so we can fix them up
+  # report cars we cant find trims for so we can fix up
+  # our lookup code for them later
   if options.size == 0
     data << {
       category: @current_category,
@@ -101,7 +100,6 @@ doc.css('p > strong').each do |n|
   else
     # report pricing for each style group
     options.each do |url, trim|
-      params = CGI::parse(url.split('?',2).last)
       trim_path = "#{url.gsub('/options','')}"
       kbb_true_price = nil
       if (trim_data = fetch_kbb(trim_path))
@@ -123,6 +121,3 @@ puts data.first.keys.to_csv
 data.map(&:values).each do |row|
   puts row.to_csv
 end
-
-#puts Text::Table.new(head: data.first.keys, rows: data.map(&:values))
-
