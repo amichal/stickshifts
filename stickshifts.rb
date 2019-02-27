@@ -11,6 +11,7 @@ require 'active_support/core_ext/string'
 doc = Nokogiri::HTML open('http://bestride.com/research/buyers-guide/manual-transmission-availability-2016-2017')
 
 def fetch_kbb(path)
+  STDERR.puts path
   url = "https://www.kbb.com#{path}"
   if !OpenURI::Cache.get(url)
     sleep(0.1) # dont hammer KBB
@@ -75,7 +76,7 @@ doc.css('p > strong').each do |n|
 
   # go ask KBB for data on the model and styles (aka trims)
   # for 2016
-  kbb_url = "/#{make.parameterize}/#{model.parameterize}/2016/"
+  kbb_url = "/#{make.parameterize}/#{model.parameterize}/2018/"
   options = {}
   if (kbb_data = fetch_kbb(kbb_url))
     options = kbb_data.css('#Styles-dropdown-subtitle option').map do |n|

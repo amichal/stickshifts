@@ -1,238 +1,70 @@
 category,make,model,trim,kbb_true_price,trim_url
+COMPACT,BMW,2 Series,,,
+COMPACT,BMW,3 Series,,,
+COMPACT,BMW,4 Series,,,
 COMPACT,Buick,Verano,,,
-COMPACT,Chevrolet,Spark,"LS Manual, 5-Spd","$12,548 - $13,123",https://www.kbb.com/chevrolet/spark/2016/ls/?vehicleid=414482&intent=buy-new&category=hatchback
-COMPACT,Chevrolet,Spark,"1LT Manual, 5-Spd","$14,426 - $15,087",https://www.kbb.com/chevrolet/spark/2016/1lt/?vehicleid=414479&intent=buy-new&category=hatchback
-COMPACT,Chevrolet,Spark,"2LT Manual, 5-Spd","$15,900 - $16,625",https://www.kbb.com/chevrolet/spark/2016/2lt/?vehicleid=414475&intent=buy-new&category=hatchback
-COMPACT,Chevrolet,Sonic,"Sedan LS 4-Cyl, 1.8 L Manual, 5-Spd","$14,126 - $14,821",https://www.kbb.com/chevrolet/sonic/2016/ls/?vehicleid=414542&intent=buy-new&category=sedan
-COMPACT,Chevrolet,Sonic,"Sedan LT 4-Cyl, 1.8 L Manual, 5-Spd","$15,787 - $16,564",https://www.kbb.com/chevrolet/sonic/2016/lt/?vehicleid=414544&intent=buy-new&category=sedan
-COMPACT,Chevrolet,Sonic,"Sedan RS 4-Cyl, Turbo, 1.4 L Manual, 6-Spd","$19,319 - $20,274",https://www.kbb.com/chevrolet/sonic/2016/rs/?vehicleid=414562&intent=buy-new&category=sedan
-COMPACT,Chevrolet,Sonic,"Hatchback Sedan LS 4-Cyl, 1.8 L Manual, 5-Spd","$14,692 - $15,411",https://www.kbb.com/chevrolet/sonic/2016/ls/?vehicleid=414554&intent=buy-new&category=hatchback
-COMPACT,Chevrolet,Sonic,"Hatchback Sedan LT 4-Cyl, 1.8 L Manual, 5-Spd","$16,409 - $17,212",https://www.kbb.com/chevrolet/sonic/2016/lt/?vehicleid=414559&intent=buy-new&category=hatchback
-COMPACT,Chevrolet,Sonic,"Hatchback Sedan RS 4-Cyl, Turbo, 1.4 L Manual, 6-Spd","$19,301 - $20,256",https://www.kbb.com/chevrolet/sonic/2016/rs/?vehicleid=414551&intent=buy-new&category=hatchback
-COMPACT,Chevrolet,Cruze,"L Manual, 6-Spd (1SM)","$15,929 - $16,855",https://www.kbb.com/chevrolet/cruze/2016/l/?vehicleid=414914&intent=buy-new&category=sedan
-COMPACT,Chevrolet,Cruze,"LS Manual, 6-Spd (1SA)","$17,388 - $18,393",https://www.kbb.com/chevrolet/cruze/2016/ls/?vehicleid=414915&intent=buy-new&category=sedan
-COMPACT,Chevrolet,Cruze,"LT Manual, 6-Spd (1SC)","$19,334 - $20,427",https://www.kbb.com/chevrolet/cruze/2016/lt/?vehicleid=414908&intent=buy-new&category=sedan
-COMPACT,Dodge,Dart,"SE 4-Cyl, Tigershark, 2.0 L Manual, 6-Spd (N/A After 4/11/2016)","$16,468 - $17,376",https://www.kbb.com/dodge/dart/2016/se/?vehicleid=410591&intent=buy-new&category=sedan
-COMPACT,Dodge,Dart,"SXT Sport 4-Cyl, Tigershark, 2.0 L Manual, 6-Spd","$17,465 - $18,424",https://www.kbb.com/dodge/dart/2016/sxt-sport/?vehicleid=420269&intent=buy-new&category=sedan
-COMPACT,Dodge,Dart,"SXT Sport Rallye 4-Cyl, Tigershark, 2.0 L Manual, 6-Spd","$18,360 - $19,367",https://www.kbb.com/dodge/dart/2016/sxt-sport-rallye/?vehicleid=420260&intent=buy-new&category=sedan
-COMPACT,Dodge,Dart,"SXT 4-Cyl, MultiAir, Tigershark, 2.4 L Manual, 6-Spd (N/A After 4/11/2016)","$18,665 - $19,692",https://www.kbb.com/dodge/dart/2016/sxt/?vehicleid=410593&intent=buy-new&category=sedan
-COMPACT,Dodge,Dart,"Turbo 4-Cyl, MultiAir, Turbo, 1.4 L Manual, 6-Spd","$18,817 - $19,850",https://www.kbb.com/dodge/dart/2016/turbo/?vehicleid=420217&intent=buy-new&category=sedan
-COMPACT,Dodge,Dart,"SXT Sport Blacktop 4-Cyl, Tigershark, 2.0 L Manual, 6-Spd","$18,903 - $19,940",https://www.kbb.com/dodge/dart/2016/sxt-sport-blacktop/?vehicleid=420257&intent=buy-new&category=sedan
-COMPACT,Dodge,Dart,"GT Sport 4-Cyl, MultiAir, Tigershark, 2.4 L Manual, 6-Spd","$20,375 - $21,484",https://www.kbb.com/dodge/dart/2016/gt-sport/?vehicleid=420261&intent=buy-new&category=sedan
-COMPACT,Dodge,Dart,"Aero 4-Cyl, MultiAir, Turbo, 1.4 L Manual, 6-Spd (N/A After 4/11/2016)","$20,650 - $21,761",https://www.kbb.com/dodge/dart/2016/aero/?vehicleid=410592&intent=buy-new&category=sedan
-COMPACT,Dodge,Dart,"GT Sport Blacktop 4-Cyl, MultiAir, Tigershark, 2.4 L Manual, 6-Spd","$21,200 - $22,337",https://www.kbb.com/dodge/dart/2016/gt-sport-blacktop/?vehicleid=420231&intent=buy-new&category=sedan
-COMPACT,Dodge,Dart,"GT 4-Cyl, MultiAir, Tigershark, 2.4 L Manual, 6-Spd (N/A After 4/11/2016)","$21,252 - $22,413",https://www.kbb.com/dodge/dart/2016/gt/?vehicleid=410595&intent=buy-new&category=sedan
+COMPACT,Chevrolet,Spark,,,
+COMPACT,Chevrolet,Sonic,,,
+COMPACT,Chevrolet,Cruze,,,
+COMPACT,Dodge,Dart,,,
 COMPACT,Fiat,500,,,
-COMPACT,Fiat,500L,"Pop Manual, 6-Spd","$18,153 - $19,321",https://www.kbb.com/fiat/500l/2016/pop/?vehicleid=415345&intent=buy-new&category=hatchback
-COMPACT,Fiat,500L,"Easy Manual, 6-Spd","$19,309 - $20,552",https://www.kbb.com/fiat/500l/2016/easy/?vehicleid=415367&intent=buy-new&category=hatchback
-COMPACT,Fiat,500L,"Trekking Manual, 6-Spd","$20,462 - $21,767",https://www.kbb.com/fiat/500l/2016/trekking/?vehicleid=415348&intent=buy-new&category=hatchback
-COMPACT,Fiat,500L,"Urbana Trekking Manual, 6-Spd","$21,683 - $23,080",https://www.kbb.com/fiat/500l/2016/urbana-trekking/?vehicleid=415342&intent=buy-new&category=hatchback
-COMPACT,Ford,Fiesta,"Sedan S 4-Cyl, 1.6 L Manual, 5-Spd","$13,837 - $14,564",https://www.kbb.com/ford/fiesta/2016/s/?vehicleid=409974&intent=buy-new&category=sedan
-COMPACT,Ford,Fiesta,"Sedan SE 4-Cyl, 1.6 L Manual, 5-Spd","$15,021 - $15,810",https://www.kbb.com/ford/fiesta/2016/se/?vehicleid=409978&intent=buy-new&category=sedan
-COMPACT,Ford,Fiesta,"Sedan Titanium 4-Cyl, 1.6 L Manual, 5-Spd","$17,476 - $18,399",https://www.kbb.com/ford/fiesta/2016/titanium/?vehicleid=409980&intent=buy-new&category=sedan
-COMPACT,Ford,Fiesta,"Hatchback S 4-Cyl, 1.6 L Manual, 5-Spd","$14,077 - $14,820",https://www.kbb.com/ford/fiesta/2016/s/?vehicleid=409976&intent=buy-new&category=hatchback
-COMPACT,Ford,Fiesta,"Hatchback SE 4-Cyl, 1.6 L Manual, 5-Spd","$15,252 - $16,053",https://www.kbb.com/ford/fiesta/2016/se/?vehicleid=409977&intent=buy-new&category=hatchback
-COMPACT,Ford,Fiesta,"Hatchback Titanium 4-Cyl, 1.6 L Manual, 5-Spd","$17,930 - $18,865",https://www.kbb.com/ford/fiesta/2016/titanium/?vehicleid=409979&intent=buy-new&category=hatchback
-COMPACT,Ford,Fiesta,"Hatchback ST 4-Cyl, EcoBoost, Turbo, 1.6 L Manual, 6-Spd","$20,765 - $21,446",https://www.kbb.com/ford/fiesta/2016/st/?vehicleid=409981&intent=buy-new&category=hatchback
-COMPACT,Ford,Focus,"Sedan S 4-Cyl, Flex Fuel, 2.0 L Manual, 5-Spd Front-Wheel Drive","$16,776 - $17,583",https://www.kbb.com/ford/focus/2016/s/?vehicleid=413298&intent=buy-new&category=sedan
-COMPACT,Ford,Focus,"Sedan SE 4-Cyl, Flex Fuel, 2.0 L Manual, 5-Spd Front-Wheel Drive","$17,973 - $18,838",https://www.kbb.com/ford/focus/2016/se/?vehicleid=413288&intent=buy-new&category=sedan
-COMPACT,Ford,Focus,"Hatchback SE 4-Cyl, Flex Fuel, 2.0 L Manual, 5-Spd Front-Wheel Drive","$18,437 - $19,323",https://www.kbb.com/ford/focus/2016/se/?vehicleid=413285&intent=buy-new&category=hatchback
-COMPACT,Ford,Focus,"Hatchback ST 4-Cyl, EcoBoost, Turbo, 2.0 L Manual, 6-Spd Front-Wheel Drive","$23,650 - $24,677",https://www.kbb.com/ford/focus/2016/st/?vehicleid=413329&intent=buy-new&category=hatchback
-COMPACT,Ford,Focus,"Hatchback RS 4-Cyl, EcoBoost, Turbo, 2.3 L Manual, 6-Spd All-Wheel Drive","$35,846 - $37,338",https://www.kbb.com/ford/focus/2016/rs/?vehicleid=413331&intent=buy-new&category=hatchback
-COMPACT,Honda,Fit,"LX Manual, 6-Spd","$15,426 - $16,194",https://www.kbb.com/honda/fit/2016/lx/?vehicleid=410761&intent=buy-new&category=hatchback
-COMPACT,Honda,Fit,"EX Manual, 6-Spd","$17,186 - $18,043",https://www.kbb.com/honda/fit/2016/ex/?vehicleid=410763&intent=buy-new&category=hatchback
-COMPACT,Honda,Civic,"4-door LX 4-Cyl, i-VTEC, 2.0 L Manual, 6-Spd","$17,512 - $18,654",https://www.kbb.com/honda/civic/2016/lx/?vehicleid=412795&intent=buy-new&category=sedan
-COMPACT,Honda,CR-Z,"LX Manual, 6-Spd","$18,492 - $19,956",https://www.kbb.com/honda/cr-z/2016/lx/?vehicleid=414607&intent=buy-new&category=coupe
-COMPACT,Honda,CR-Z,"EX Manual, 6-Spd","$20,102 - $21,695",https://www.kbb.com/honda/cr-z/2016/ex/?vehicleid=414609&intent=buy-new&category=coupe
-COMPACT,Honda,CR-Z,"EX-L Manual, 6-Spd","$22,114 - $23,865",https://www.kbb.com/honda/cr-z/2016/ex-l/?vehicleid=414610&intent=buy-new&category=coupe
-COMPACT,Hyundai,Accent,"Sedan SE Manual, 6-Spd","$14,374 - $15,081",https://www.kbb.com/hyundai/accent/2016/se/?vehicleid=412038&intent=buy-new&category=sedan
-COMPACT,Hyundai,Accent,"Hatchback SE Manual, 6-Spd","$14,603 - $15,322",https://www.kbb.com/hyundai/accent/2016/se/?vehicleid=412039&intent=buy-new&category=hatchback
-COMPACT,Hyundai,Accent,"Hatchback Sport Manual, 6-Spd","$15,987 - $16,774",https://www.kbb.com/hyundai/accent/2016/sport/?vehicleid=412042&intent=buy-new&category=hatchback
-COMPACT,Hyundai,Elantra,"SE 4-Cyl, 1.8 L Manual, 6-Spd","$16,580 - $17,479",https://www.kbb.com/hyundai/elantra/2016/se/?vehicleid=407356&intent=buy-new&category=sedan
-COMPACT,Hyundai,Elantra,"Sport 4-Cyl, 2.0 L Manual, 6-Spd","$19,384 - $20,431",https://www.kbb.com/hyundai/elantra/2016/sport/?vehicleid=407358&intent=buy-new&category=sedan
-COMPACT,Hyundai,Veloster,"Base 4-Cyl, 1.6 L Manual, 6-Spd (Black Interior w/Yellow Accent)","$17,639 - $18,387",https://www.kbb.com/hyundai/veloster/2016/base-style/?vehicleid=411982&intent=buy-new&category=coupe
-COMPACT,Hyundai,Veloster,"Base 4-Cyl, 1.6 L Manual, 6-Spd (Black Interior)","$17,639 - $18,387",https://www.kbb.com/hyundai/veloster/2016/base-style/?vehicleid=412043&intent=buy-new&category=coupe
-COMPACT,Hyundai,Veloster,"Turbo R-Spec 4-Cyl, Turbocharged, 1.6 L Manual, 6-Spd","$21,080 - $21,971",https://www.kbb.com/hyundai/veloster/2016/turbo-r-spec/?vehicleid=412044&intent=buy-new&category=coupe
-COMPACT,Hyundai,Veloster,"Turbo 4-Cyl, Turbocharged, 1.6 L Manual, 6-Spd (Black Interior w/Orange Accent)","$21,948 - $22,878",https://www.kbb.com/hyundai/veloster/2016/turbo/?vehicleid=411980&intent=buy-new&category=coupe
-COMPACT,Hyundai,Veloster,"Turbo 4-Cyl, Turbocharged, 1.6 L Manual, 6-Spd (Black Interior)","$21,948 - $22,878",https://www.kbb.com/hyundai/veloster/2016/turbo/?vehicleid=412047&intent=buy-new&category=coupe
-COMPACT,Hyundai,Veloster,"Turbo Rally Edition 4-Cyl, Turbocharged, 1.6 L Manual, 6-Spd","$23,212 - $24,196",https://www.kbb.com/hyundai/veloster/2016/turbo-rally-edition/?vehicleid=412046&intent=buy-new&category=coupe
-COMPACT,Kia,Rio,"Sedan LX Manual, 6-Spd","$13,520 - $14,364",https://www.kbb.com/kia/rio/2016/lx/?vehicleid=410875&intent=buy-new&category=sedan
-COMPACT,Kia,Forte,"LX 4-Cyl, 1.8 L Manual, 6-Spd","$15,421 - $16,267",https://www.kbb.com/kia/forte/2016/lx/?vehicleid=410859&intent=buy-new&category=sedan
-COMPACT,Kia,Soul,"Base 4-Cyl, 1.6 L Manual, 6-Spd","$15,587 - $16,302",https://www.kbb.com/kia/soul/2016/base-style/?vehicleid=412034&intent=buy-new&category=wagon
-COMPACT,Mazda,MAZDA3,"Sedan i Sport 4-Cyl, SKYACTIV-G, 2.0 L Manual, 6-Spd SKYACTIV-MT","$17,247 - $18,113",https://www.kbb.com/mazda/mazda3/2016/i-sport/?vehicleid=410604&intent=buy-new&category=sedan
-COMPACT,Mazda,MAZDA3,"Sedan i Sport 4-Cyl, SKYACTIV-G, 2.0 L Automatic, 6-Spd SKYACTIV-Drive w/Manual Mode","$18,220 - $19,135",https://www.kbb.com/mazda/mazda3/2016/i-sport/?vehicleid=410603&intent=buy-new&category=sedan
-COMPACT,Mazda,MAZDA3,"Sedan i Touring 4-Cyl, SKYACTIV-G, 2.0 L Manual, 6-Spd SKYACTIV-MT","$19,314 - $20,281",https://www.kbb.com/mazda/mazda3/2016/i-touring/?vehicleid=410606&intent=buy-new&category=sedan
-COMPACT,Mazda,MAZDA3,"Sedan i Touring 4-Cyl, SKYACTIV-G, 2.0 L Automatic, 6-Spd SKYACTIV-Drive w/Manual Mode","$20,286 - $21,301",https://www.kbb.com/mazda/mazda3/2016/i-touring/?vehicleid=410608&intent=buy-new&category=sedan
-COMPACT,Mazda,MAZDA3,"Sedan i Grand Touring 4-Cyl, SKYACTIV-G, 2.0 L Manual, 6-Spd SKYACTIV-MT","$21,643 - $22,726",https://www.kbb.com/mazda/mazda3/2016/i-grand-touring/?vehicleid=410611&intent=buy-new&category=sedan
-COMPACT,Mazda,MAZDA3,"Sedan i Grand Touring 4-Cyl, SKYACTIV-G, 2.0 L Automatic, 6-Spd SKYACTIV-Drive w/Manual Mode","$22,615 - $23,746",https://www.kbb.com/mazda/mazda3/2016/i-grand-touring/?vehicleid=410613&intent=buy-new&category=sedan
-COMPACT,Mazda,MAZDA3,"Sedan s Grand Touring 4-Cyl, SKYACTIV-G, 2.5 L Manual, 6-Spd SKYACTIV-MT","$23,705 - $24,890",https://www.kbb.com/mazda/mazda3/2016/s-grand-touring/?vehicleid=410617&intent=buy-new&category=sedan
-COMPACT,Mazda,MAZDA3,"Sedan s Grand Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual Mode","$24,677 - $25,912",https://www.kbb.com/mazda/mazda3/2016/s-grand-touring/?vehicleid=410618&intent=buy-new&category=sedan
-COMPACT,Mazda,MAZDA3,"Sedan s Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual Mode","$23,906 - $25,091",https://www.kbb.com/mazda/mazda3/2016/s-touring/?vehicleid=410615&intent=buy-new&category=sedan
-COMPACT,Mazda,MAZDA3,"Hatchback i Sport 4-Cyl, SKYACTIV-G, 2.0 L Manual, 6-Spd SKYACTIV-MT","$18,042 - $18,941",https://www.kbb.com/mazda/mazda3/2016/i-sport/?vehicleid=410601&intent=buy-new&category=hatchback
-COMPACT,Mazda,MAZDA3,"Hatchback i Sport 4-Cyl, SKYACTIV-G, 2.0 L Automatic, 6-Spd SKYACTIV-Drive w/Manual Mode","$19,020 - $19,967",https://www.kbb.com/mazda/mazda3/2016/i-sport/?vehicleid=410602&intent=buy-new&category=hatchback
-COMPACT,Mazda,MAZDA3,"Hatchback i Touring 4-Cyl, SKYACTIV-G, 2.0 L Manual, 6-Spd SKYACTIV-MT","$20,061 - $21,060",https://www.kbb.com/mazda/mazda3/2016/i-touring/?vehicleid=410607&intent=buy-new&category=hatchback
-COMPACT,Mazda,MAZDA3,"Hatchback i Touring 4-Cyl, SKYACTIV-G, 2.0 L Automatic, 6-Spd SKYACTIV-Drive w/Manual Mode","$21,037 - $22,084",https://www.kbb.com/mazda/mazda3/2016/i-touring/?vehicleid=410605&intent=buy-new&category=hatchback
-COMPACT,Mazda,MAZDA3,"Hatchback i Grand Touring 4-Cyl, SKYACTIV-G, 2.0 L Manual, 6-Spd SKYACTIV-MT","$22,451 - $23,564",https://www.kbb.com/mazda/mazda3/2016/i-grand-touring/?vehicleid=410609&intent=buy-new&category=hatchback
-COMPACT,Mazda,MAZDA3,"Hatchback i Grand Touring 4-Cyl, SKYACTIV-G, 2.0 L Automatic, 6-Spd SKYACTIV-Drive w/Manual Mode","$23,429 - $24,592",https://www.kbb.com/mazda/mazda3/2016/i-grand-touring/?vehicleid=410610&intent=buy-new&category=hatchback
-COMPACT,Mazda,MAZDA3,"Hatchback s Grand Touring 4-Cyl, SKYACTIV-G, 2.5 L Manual, 6-Spd SKYACTIV-MT","$24,519 - $25,736",https://www.kbb.com/mazda/mazda3/2016/s-grand-touring/?vehicleid=410616&intent=buy-new&category=hatchback
-COMPACT,Mazda,MAZDA3,"Hatchback s Grand Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual Mode","$25,499 - $26,764",https://www.kbb.com/mazda/mazda3/2016/s-grand-touring/?vehicleid=410612&intent=buy-new&category=hatchback
-COMPACT,Mazda,MAZDA3,"Hatchback s Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual Mode","$24,564 - $25,783",https://www.kbb.com/mazda/mazda3/2016/s-touring/?vehicleid=410614&intent=buy-new&category=hatchback
+COMPACT,Fiat,500L,,,
+COMPACT,Ford,Fiesta,,,
+COMPACT,Ford,Focus,,,
+COMPACT,Honda,Fit,,,
+COMPACT,Honda,Civic,,,
+COMPACT,Honda,CR-Z,,,
+COMPACT,Hyundai,Accent,,,
+COMPACT,Hyundai,Elantra/Elantra GT,,,
+COMPACT,Hyundai,Veloster,,,
+COMPACT,Kia,Rio,,,
+COMPACT,Kia,Forte,,,
+COMPACT,Kia,Soul,,,
+COMPACT,Mazda,MAZDA3,,,
 COMPACT,Mini,Countryman,,,
 COMPACT,Mitsubishi,Mirage,,,
-COMPACT,Mitsubishi,Lancer,"ES 4-Cyl, 2.0 L Manual, 5-Spd Front-Wheel Drive","$17,023 - $17,875",https://www.kbb.com/mitsubishi/lancer/2016/es/?vehicleid=412277&intent=buy-new&category=sedan
-COMPACT,Mitsubishi,Lancer,"GT 4-Cyl, 2.4 L Manual, 5-Spd Front-Wheel Drive","$21,588 - $22,667",https://www.kbb.com/mitsubishi/lancer/2016/gt/?vehicleid=412214&intent=buy-new&category=sedan
-COMPACT,Nissan,Versa,"S Manual, 5-Spd","$11,427 - $12,236",https://www.kbb.com/nissan/versa/2016/s/?vehicleid=411678&intent=buy-new&category=sedan
-COMPACT,Nissan,Versa Note,"S Manual, 5-Spd","$13,715 - $14,514",https://www.kbb.com/nissan/versa-note/2016/s/?vehicleid=411947&intent=buy-new&category=hatchback
-COMPACT,Nissan,Sentra,"S Manual, 6-Spd","$16,055 - $16,994",https://www.kbb.com/nissan/sentra/2016/s/?vehicleid=414591&intent=buy-new&category=sedan
+COMPACT,Mitsubishi,Lancer,,,
+COMPACT,Nissan,Versa,,,
+COMPACT,Nissan,Versa Note,,,
+COMPACT,Nissan,Sentra,,,
 COMPACT,Scion,xB,,,
-COMPACT,Scion,tC,"Manual, 6-Spd","$18,286 - $19,401",https://www.kbb.com/scion/tc/2016/base-style/?vehicleid=412165&intent=buy-new&category=coupe
-COMPACT,Subaru,Impreza,"Sedan 2.0i Manual, 5-Spd","$17,714 - $18,571",https://www.kbb.com/subaru/impreza/2016/20i/?vehicleid=412254&intent=buy-new&category=sedan
-COMPACT,Subaru,Impreza,"Sedan 2.0i Automatic, CVT w/Manual Mode","$18,642 - $19,543",https://www.kbb.com/subaru/impreza/2016/20i/?vehicleid=412271&intent=buy-new&category=sedan
-COMPACT,Subaru,Impreza,"Sedan 2.0i Premium Automatic, CVT w/Manual Mode","$20,451 - $21,436",https://www.kbb.com/subaru/impreza/2016/20i-premium/?vehicleid=412270&intent=buy-new&category=sedan
-COMPACT,Subaru,Impreza,"Sedan 2.0i Limited Automatic, CVT w/Manual Mode","$21,743 - $22,794",https://www.kbb.com/subaru/impreza/2016/20i-limited/?vehicleid=412273&intent=buy-new&category=sedan
-COMPACT,Subaru,Impreza,"Wagon 2.0i Manual, 5-Spd","$18,246 - $19,125",https://www.kbb.com/subaru/impreza/2016/20i/?vehicleid=412255&intent=buy-new&category=wagon
-COMPACT,Subaru,Impreza,"Wagon 2.0i Automatic, CVT w/Manual Mode","$19,195 - $20,118",https://www.kbb.com/subaru/impreza/2016/20i/?vehicleid=412269&intent=buy-new&category=wagon
-COMPACT,Subaru,Impreza,"Wagon 2.0i Sport Premium Manual, 5-Spd","$20,277 - $21,261",https://www.kbb.com/subaru/impreza/2016/20i-sport-premium/?vehicleid=412256&intent=buy-new&category=wagon
-COMPACT,Subaru,Impreza,"Wagon 2.0i Sport Premium Automatic, CVT w/Manual Mode","$21,203 - $22,232",https://www.kbb.com/subaru/impreza/2016/20i-sport-premium/?vehicleid=412274&intent=buy-new&category=wagon
-COMPACT,Subaru,Impreza,"Wagon 2.0i Premium Automatic, CVT w/Manual Mode","$20,901 - $21,906",https://www.kbb.com/subaru/impreza/2016/20i-premium/?vehicleid=412267&intent=buy-new&category=wagon
-COMPACT,Subaru,Impreza,"Wagon 2.0i Limited Automatic, CVT w/Manual Mode","$22,282 - $23,355",https://www.kbb.com/subaru/impreza/2016/20i-limited/?vehicleid=412259&intent=buy-new&category=wagon
-COMPACT,Subaru,Impreza,"Wagon 2.0i Sport Limited Automatic, CVT w/Manual Mode","$22,656 - $23,751",https://www.kbb.com/subaru/impreza/2016/20i-sport-limited/?vehicleid=412242&intent=buy-new&category=wagon
-COMPACT,Toyota,Yaris,"4-door SE Manual, 5-Spd","$16,360 - $17,195",https://www.kbb.com/toyota/yaris/2016/se/?vehicleid=412958&intent=buy-new&category=hatchback
-COMPACT,Toyota,Corolla,"L 4-Cyl, 1.8 L Manual, 6-Spd","$16,265 - $17,456",https://www.kbb.com/toyota/corolla/2016/l/?vehicleid=411859&intent=buy-new&category=sedan
-COMPACT,Toyota,Corolla,"S Plus 4-Cyl, 1.8 L Manual, 6-Spd","$19,975 - $21,453",https://www.kbb.com/toyota/corolla/2016/s-plus/?vehicleid=411868&intent=buy-new&category=sedan
-COMPACT,Volkswagen,Beetle,"Hatchback 1.8T SE 4-Cyl, Turbo, 1.8 L Manual, 5-Spd","$19,039 - $20,798",https://www.kbb.com/volkswagen/beetle/2016/18t-se/?vehicleid=412246&intent=buy-new&category=hatchback
-COMPACT,Volkswagen,Beetle,"Hatchback R-Line SE 4-Cyl, Turbo, 2.0 L Manual, 6-Spd (Sold Orders Only)","$23,026 - $25,152",https://www.kbb.com/volkswagen/beetle/2016/r-line-se/?vehicleid=412248&intent=buy-new&category=hatchback
-COMPACT,Volkswagen,Beetle,"Hatchback R-Line SEL 4-Cyl, Turbo, 2.0 L Manual, 6-Spd (Sold Orders Only)","$27,709 - $30,271",https://www.kbb.com/volkswagen/beetle/2016/r-line-sel/?vehicleid=412268&intent=buy-new&category=hatchback
-COMPACT,Volkswagen,Beetle,"Convertible R-Line S 4-Cyl, Turbo, 2.0 L Manual, 6-Spd (Sold Orders Only)","$26,280 - $28,707",https://www.kbb.com/volkswagen/beetle/2016/r-line-s/?vehicleid=412249&intent=buy-new&category=convertible
-COMPACT,Volkswagen,Beetle,"Convertible R-Line SE 4-Cyl, Turbo, 2.0 L Manual, 6-Spd (Sold Orders Only)","$27,815 - $30,385",https://www.kbb.com/volkswagen/beetle/2016/r-line-se/?vehicleid=412272&intent=buy-new&category=convertible
-COMPACT,Volkswagen,Beetle,"Convertible R-Line SEL 4-Cyl, Turbo, 2.0 L Manual, 6-Spd (Sold Orders Only)","$30,711 - $33,546",https://www.kbb.com/volkswagen/beetle/2016/r-line-sel/?vehicleid=412265&intent=buy-new&category=convertible
-COMPACT,Volkswagen,Golf/Sportwagen,"TSI S Manual, 5-Spd","$19,168 - $21,005",https://www.kbb.com/volkswagen/golf-sportwagen/2016/tsi-s/?vehicleid=412655&intent=buy-new&category=wagon
+COMPACT,Scion,tC,,,
+COMPACT,Subaru,Impreza,,,
+COMPACT,Toyota,Yaris,,,
+COMPACT,Toyota,Corolla,,,
+COMPACT,Volkswagen,Beetle,,,
+COMPACT,Volkswagen,Golf/Sportwagen,,,
 COMPACT,Volkswagen,Jetta/Sportwagen,,,
-MID-SIZED,Honda,Accord,"4-door LX 4-Cyl, i-VTEC, 2.4 L Manual, 6-Spd","$19,968 - $21,702",https://www.kbb.com/honda/accord/2016/lx/?vehicleid=411888&intent=buy-new&category=sedan
-MID-SIZED,Honda,Accord,"4-door Sport 4-Cyl, i-VTEC, 2.4 L Manual, 6-Spd","$21,753 - $23,640",https://www.kbb.com/honda/accord/2016/sport/?vehicleid=411891&intent=buy-new&category=sedan
-MID-SIZED,Honda,Accord,"4-door EX 4-Cyl, i-VTEC, 2.4 L Manual, 6-Spd","$22,891 - $24,878",https://www.kbb.com/honda/accord/2016/ex/?vehicleid=411898&intent=buy-new&category=sedan
-MID-SIZED,Mazda,MAZDA6,"i Sport Manual, 6-Spd SKYACTIV","$20,583 - $21,638",https://www.kbb.com/mazda/mazda6/2016/i-sport/?vehicleid=406851&intent=buy-new&category=sedan
-MID-SIZED,Mazda,MAZDA6,"i Sport Automatic, 6-Spd SKYACTIV-Drive Sport w/Manual Mode","$21,966 - $23,092",https://www.kbb.com/mazda/mazda6/2016/i-sport/?vehicleid=406854&intent=buy-new&category=sedan
-MID-SIZED,Mazda,MAZDA6,"i Touring Manual, 6-Spd SKYACTIV","$22,842 - $24,010",https://www.kbb.com/mazda/mazda6/2016/i-touring/?vehicleid=406853&intent=buy-new&category=sedan
-MID-SIZED,Mazda,MAZDA6,"i Touring Automatic, 6-Spd SKYACTIV-Drive Sport w/Manual Mode","$23,811 - $25,028",https://www.kbb.com/mazda/mazda6/2016/i-touring/?vehicleid=406855&intent=buy-new&category=sedan
-MID-SIZED,Mazda,MAZDA6,"i Grand Touring Automatic, 6-Spd SKYACTIV-Drive Straight Shifter w/Manual Mode","$28,686 - $30,151",https://www.kbb.com/mazda/mazda6/2016/i-grand-touring/?vehicleid=406856&intent=buy-new&category=sedan
+MID-SIZED,Honda,Accord,,,
+MID-SIZED,Mazda,MAZDA6,,,
 MID-SIZED,Volkswagen,Passat,,,
-MID-SIZED,Volkswagen,CC,"2.0T Trend 4-Cyl, Turbo, 2.0 L Manual, 6-Spd Front-Wheel Drive (Sold Orders Only)","$27,720 - $30,183",https://www.kbb.com/volkswagen/cc/2016/20t-trend/?vehicleid=412640&intent=buy-new&category=sedan
-MID-SIZED,Volkswagen,CC,"2.0T R-Line 4-Cyl, Turbo, 2.0 L Manual, 6-Spd Front-Wheel Drive (Sold Orders Only)","$30,459 - $33,156",https://www.kbb.com/volkswagen/cc/2016/20t-r-line/?vehicleid=412636&intent=buy-new&category=sedan
+MID-SIZED,Volkswagen,CC,,,
 MID-SIZED,Jeep,Renegade/Fiat 500X,,,
-MID-SIZED,Jeep,Compass/ Patriot,,,
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited Sport Manual, 6-Spd","$26,698 - $27,977",https://www.kbb.com/jeep/wrangler/2016/unlimited-sport/?vehicleid=412551&intent=buy-new&category=suv
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited Sport S Manual, 6-Spd","$29,553 - $30,977",https://www.kbb.com/jeep/wrangler/2016/unlimited-sport-s/?vehicleid=412528&intent=buy-new&category=suv
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited Willys Wheeler Manual, 6-Spd","$30,732 - $32,205",https://www.kbb.com/jeep/wrangler/2016/unlimited-willys-wheeler/?vehicleid=412523&intent=buy-new&category=suv
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited Black Bear Manual, 6-Spd","$31,121 - $32,612",https://www.kbb.com/jeep/wrangler/2016/unlimited-black-bear/?vehicleid=412559&intent=buy-new&category=suv
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited Freedom Manual, 6-Spd","$32,322 - $33,857",https://www.kbb.com/jeep/wrangler/2016/unlimited-freedom/?vehicleid=412509&intent=buy-new&category=suv
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited Sahara Manual, 6-Spd","$32,241 - $33,794",https://www.kbb.com/jeep/wrangler/2016/unlimited-sahara/?vehicleid=412531&intent=buy-new&category=suv
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited Willys Wheeler W Manual, 6-Spd","$32,519 - $34,085",https://www.kbb.com/jeep/wrangler/2016/unlimited-willys-wheeler-w/?vehicleid=412536&intent=buy-new&category=suv
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited Rubicon Manual, 6-Spd","$35,210 - $36,907",https://www.kbb.com/jeep/wrangler/2016/unlimited-rubicon/?vehicleid=412517&intent=buy-new&category=suv
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited Backcountry Manual, 6-Spd","$36,774 - $38,537",https://www.kbb.com/jeep/wrangler/2016/unlimited-backcountry/?vehicleid=418746&intent=buy-new&category=suv
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited 75th Anniversary Edition Manual, 6-Spd","$36,578 - $38,340",https://www.kbb.com/jeep/wrangler/2016/unlimited-75th-anniversary-edition/?vehicleid=418747&intent=buy-new&category=suv
-MID-SIZED,Jeep,Wrangler,"4-door Unlimited Rubicon Hard Rock Manual, 6-Spd","$39,659 - $41,569",https://www.kbb.com/jeep/wrangler/2016/unlimited-rubicon-hard-rock/?vehicleid=412555&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Sport 4-Cyl, SKYACTIV-G, 2.0 L Manual, 6-Spd SKYACTIV Front-Wheel Drive","$21,746 - $22,399",https://www.kbb.com/mazda/cx-5/2016/sport/?vehicleid=406839&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Sport 4-Cyl, SKYACTIV-G, 2.0 L Manual, 6-Spd SKYACTIV Front-Wheel Drive (2016.5)","$21,746 - $22,399",https://www.kbb.com/mazda/cx-5/2016/sport/?vehicleid=415828&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Sport 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes Front-Wheel Drive","$23,087 - $23,780",https://www.kbb.com/mazda/cx-5/2016/sport/?vehicleid=406838&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Sport 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes Front-Wheel Drive (2016.5)","$23,470 - $24,175",https://www.kbb.com/mazda/cx-5/2016/sport/?vehicleid=415806&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Sport 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes All-Wheel Drive","$24,285 - $25,014",https://www.kbb.com/mazda/cx-5/2016/sport/?vehicleid=406840&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Sport 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes All-Wheel Drive (2016.5)","$24,716 - $25,459",https://www.kbb.com/mazda/cx-5/2016/sport/?vehicleid=415825&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes Front-Wheel Drive","$25,051 - $25,804",https://www.kbb.com/mazda/cx-5/2016/touring/?vehicleid=406841&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes Front-Wheel Drive (2016.5)","$25,051 - $25,804",https://www.kbb.com/mazda/cx-5/2016/touring/?vehicleid=415833&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes All-Wheel Drive","$26,250 - $27,039",https://www.kbb.com/mazda/cx-5/2016/touring/?vehicleid=406842&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes All-Wheel Drive (2016.5)","$26,297 - $27,088",https://www.kbb.com/mazda/cx-5/2016/touring/?vehicleid=415818&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Grand Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes Front-Wheel Drive","$27,979 - $28,820",https://www.kbb.com/mazda/cx-5/2016/grand-touring/?vehicleid=406843&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Grand Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes Front-Wheel Drive (2016.5)","$28,316 - $29,167",https://www.kbb.com/mazda/cx-5/2016/grand-touring/?vehicleid=415808&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Grand Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes All-Wheel Drive","$29,180 - $30,057",https://www.kbb.com/mazda/cx-5/2016/grand-touring/?vehicleid=406844&intent=buy-new&category=suv
-MID-SIZED,Mazda,CX-5,"Grand Touring 4-Cyl, SKYACTIV-G, 2.5 L Automatic, 6-Spd SKYACTIV-Drive w/Manual & Sport Modes All-Wheel Drive (2016.5)","$29,564 - $30,453",https://www.kbb.com/mazda/cx-5/2016/grand-touring/?vehicleid=415821&intent=buy-new&category=suv
-MID-SIZED,Mitsubishi,Outlander Sport,"ES 4-Cyl, 2.0 L Manual, 5-Spd Two-Wheel Drive (2.0L)","$18,660 - $19,574",https://www.kbb.com/mitsubishi/outlander-sport/2016/es/?vehicleid=415130&intent=buy-new&category=suv
+MID-SIZED,Jeep,Compass,,,
+MID-SIZED,Jeep,Wrangler,,,
+MID-SIZED,Mitsubishi,Outlander Sport,,,
 MID-SIZED,Nissan,Juke NISMO and NISMO RS,,,
-MID-SIZED,Subaru,Crosstrek,"2.0i 4-Cyl, PZEV, 2.0 L Manual, 5-Spd","$21,012 - $21,909",https://www.kbb.com/subaru/crosstrek/2016/20i/?vehicleid=413407&intent=buy-new&category=suv
-MID-SIZED,Subaru,Crosstrek,"2.0i Premium 4-Cyl, PZEV, 2.0 L Manual, 5-Spd","$21,756 - $22,688",https://www.kbb.com/subaru/crosstrek/2016/20i-premium/?vehicleid=413434&intent=buy-new&category=suv
-MID-SIZED,Subaru,Crosstrek,"2.0i Premium 4-Cyl, PZEV, 2.0 L Automatic, CVT w/Manual Mode","$22,892 - $23,865",https://www.kbb.com/subaru/crosstrek/2016/20i-premium/?vehicleid=413431&intent=buy-new&category=suv
-MID-SIZED,Subaru,Crosstrek,"2.0i Limited 4-Cyl, PZEV, 2.0 L Automatic, CVT w/Manual Mode","$24,337 - $25,376",https://www.kbb.com/subaru/crosstrek/2016/20i-limited/?vehicleid=413418&intent=buy-new&category=suv
-MID-SIZED,Subaru,Crosstrek,"Hybrid 4-Cyl, Hybrid, 2.0 L Automatic, CVT w/Manual Mode","$25,631 - $26,720",https://www.kbb.com/subaru/crosstrek/2016/hybrid/?vehicleid=413435&intent=buy-new&category=suv
-MID-SIZED,Subaru,Crosstrek,"Hybrid Touring 4-Cyl, Hybrid, 2.0 L Automatic, CVT w/Manual Mode","$28,982 - $30,219",https://www.kbb.com/subaru/crosstrek/2016/hybrid-touring/?vehicleid=413437&intent=buy-new&category=suv
-MID-SIZED,Subaru,Forester,"2.5i 4-Cyl, PZEV, 2.5 L Manual, 6-Spd","$21,416 - $22,520",https://www.kbb.com/subaru/forester/2016/25i/?vehicleid=410670&intent=buy-new&category=suv
-MID-SIZED,Subaru,Forester,"2.5i Premium 4-Cyl, PZEV, 2.5 L Manual, 6-Spd","$24,089 - $25,328",https://www.kbb.com/subaru/forester/2016/25i-premium/?vehicleid=410665&intent=buy-new&category=suv
-MID-SIZED,Subaru,Forester,"2.0XT Premium 4-Cyl, Turbo, 2.0 L Automatic, CVT w/Lineartronic & Manual Modes","$27,684 - $29,109",https://www.kbb.com/subaru/forester/2016/20xt-premium/?vehicleid=410669&intent=buy-new&category=suv
-MID-SIZED,Subaru,Forester,"2.0XT Touring 4-Cyl, Turbo, 2.0 L Automatic, CVT w/Lineartronic & Manual Modes","$32,284 - $33,927",https://www.kbb.com/subaru/forester/2016/20xt-touring/?vehicleid=410672&intent=buy-new&category=suv
+MID-SIZED,Subaru,Crosstrek,,,
+MID-SIZED,Subaru,Forester,,,
 PICKUPS,Chevrolet/GMC,Colorado/Canyon,,,
 PICKUPS,Ram,2500/3500,,,
 PICKUPS,Nissan,Frontier,,,
 PICKUPS,Toyota,Tacoma,,,
-SPORTS CARS,Aston Martin,Vantage,"Coupe V8 GT V8, 4.7 L Manual, 6-Spd","$106,746 - $108,903",https://www.kbb.com/aston-martin/vantage/2016/v8-gt/?vehicleid=418932&intent=buy-new&category=coupe
-SPORTS CARS,Aston Martin,Vantage,"Coupe V8 V8, 4.7 L Manual, 6-Spd","$124,561 - $127,078",https://www.kbb.com/aston-martin/vantage/2016/v8/?vehicleid=418931&intent=buy-new&category=coupe
-SPORTS CARS,Aston Martin,Vantage,"Coupe V8 S V8, 4.7 L Manual, 6-Spd","$137,431 - $140,208",https://www.kbb.com/aston-martin/vantage/2016/v8-s/?vehicleid=418940&intent=buy-new&category=coupe
-SPORTS CARS,Aston Martin,Vantage,"Convertible V8 GT V8, 4.7 L Manual, 6-Spd","$121,101 - $123,548",https://www.kbb.com/aston-martin/vantage/2016/v8-gt/?vehicleid=418936&intent=buy-new&category=convertible
-SPORTS CARS,Aston Martin,Vantage,"Convertible V8 V8, 4.7 L Manual, 6-Spd","$138,916 - $141,723",https://www.kbb.com/aston-martin/vantage/2016/v8/?vehicleid=418933&intent=buy-new&category=convertible
-SPORTS CARS,Aston Martin,Vantage,"Convertible V8 S V8, 4.7 L Manual, 6-Spd","$151,786 - $154,853",https://www.kbb.com/aston-martin/vantage/2016/v8-s/?vehicleid=418935&intent=buy-new&category=convertible
+SPORTS CARS,Aston Martin,Vantage,,,
 SPORTS CARS,Audi,R8,,,
-SPORTS CARS,BMW,Z4,"sDrive28i 4-Cyl, Turbo, 2.0 L Manual, 6-Spd","$44,648 - $47,672",https://www.kbb.com/bmw/z4/2016/sdrive28i/?vehicleid=410120&intent=buy-new&category=convertible
-SPORTS CARS,BMW,Z4,"sDrive35i 6-Cyl, Twin Turbo, 3.0 L Automatic, 7-Spd Double Clutch w/Manual Mode","$51,522 - $55,009",https://www.kbb.com/bmw/z4/2016/sdrive35i/?vehicleid=410121&intent=buy-new&category=convertible
-SPORTS CARS,BMW,Z4,"sDrive35is 6-Cyl, Twin Turbo, 3.0 L Automatic, 7-Spd Double Clutch w/Manual Mode","$59,311 - $63,329",https://www.kbb.com/bmw/z4/2016/sdrive35is/?vehicleid=410122&intent=buy-new&category=convertible
+SPORTS CARS,BMW,Z4,,,
 SPORTS CARS,Chevrolet,Camaro,,,
 SPORTS CARS,Chevrolet,Corvette,,,
 SPORTS CARS,Chevrolet,SS,,,
-SPORTS CARS,Dodge,Challenger,"R/T V8, HEMI, 5.7 L Manual, 6-Spd","$30,428 - $31,822",https://www.kbb.com/dodge/challenger/2016/r-t/?vehicleid=412526&intent=buy-new&category=coupe
-SPORTS CARS,Dodge,Challenger,"R/T Plus V8, HEMI, 5.7 L Manual, 6-Spd","$33,196 - $34,714",https://www.kbb.com/dodge/challenger/2016/r-t-plus/?vehicleid=412500&intent=buy-new&category=coupe
-SPORTS CARS,Dodge,Challenger,"R/T Shaker V8, HEMI, 5.7 L Manual, 6-Spd","$34,119 - $35,676",https://www.kbb.com/dodge/challenger/2016/r-t-shaker/?vehicleid=412515&intent=buy-new&category=coupe
-SPORTS CARS,Dodge,Challenger,"R/T Plus Shaker V8, HEMI, 5.7 L Manual, 6-Spd","$36,886 - $38,573",https://www.kbb.com/dodge/challenger/2016/r-t-plus-shaker/?vehicleid=412501&intent=buy-new&category=coupe
-SPORTS CARS,Dodge,Challenger,"R/T Scat Pack V8, HEMI, 6.4 L Manual, 6-Spd","$36,915 - $38,604",https://www.kbb.com/dodge/challenger/2016/r-t-scat-pack/?vehicleid=412498&intent=buy-new&category=coupe
-SPORTS CARS,Dodge,Challenger,"392 Hemi Scat Pack Shaker V8, HEMI, 6.4 L Manual, 6-Spd","$40,389 - $42,237",https://www.kbb.com/dodge/challenger/2016/392-hemi-scat-pack-shaker/?vehicleid=412499&intent=buy-new&category=coupe
-SPORTS CARS,Dodge,Challenger,"SRT 392 V8, HEMI, 6.4 L Manual, 6-Spd","$47,242 - $49,406",https://www.kbb.com/dodge/challenger/2016/srt-392/?vehicleid=412507&intent=buy-new&category=coupe
-SPORTS CARS,Dodge,Challenger,"SRT Hellcat V8, HEMI, Supercharged, 6.2 L Manual, 6-Spd","$60,599 - $63,364",https://www.kbb.com/dodge/challenger/2016/srt-hellcat/?vehicleid=412505&intent=buy-new&category=coupe
-SPORTS CARS,Dodge,Viper,,,
+SPORTS CARS,Dodge,Challenger,,,
 SPORTS CARS,Fiat,124 Spider,,,
 SPORTS CARS,Ford,Mustang,,,
-SPORTS CARS,Hyundai,Genesis Coupe,"3.8 Manual, 6-Spd","$25,631 - $26,988",https://www.kbb.com/hyundai/genesis-coupe/2016/38/?vehicleid=414897&intent=buy-new&category=coupe
-SPORTS CARS,Hyundai,Genesis Coupe,"3.8 R-Spec Manual, 6-Spd","$28,229 - $29,728",https://www.kbb.com/hyundai/genesis-coupe/2016/38-r-spec/?vehicleid=414895&intent=buy-new&category=coupe
-SPORTS CARS,Hyundai,Genesis Coupe,"3.8 Ultimate Manual, 6-Spd","$31,754 - $33,441",https://www.kbb.com/hyundai/genesis-coupe/2016/38-ultimate/?vehicleid=414885&intent=buy-new&category=coupe
+SPORTS CARS,Hyundai,Genesis Coupe,,,
 SPORTS CARS,Lotus,Evora,,,
 SPORTS CARS,Mazda,Miata,,,
-SPORTS CARS,Nissan,370Z,"Coupe Base Manual, 6-Spd","$27,760 - $29,561",https://www.kbb.com/nissan/370z/2016/base-style/?vehicleid=409767&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe Base Automatic, 7-Spd w/Manual Mode","$28,931 - $30,807",https://www.kbb.com/nissan/370z/2016/base-style/?vehicleid=409768&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe Sport Manual, 6-Spd","$31,008 - $33,019",https://www.kbb.com/nissan/370z/2016/sport/?vehicleid=409770&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe Sport Automatic, 7-Spd w/Manual Mode","$32,178 - $34,265",https://www.kbb.com/nissan/370z/2016/sport/?vehicleid=409772&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe Sport Tech Manual, 6-Spd","$34,197 - $36,414",https://www.kbb.com/nissan/370z/2016/sport-tech/?vehicleid=409771&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe Sport Tech Automatic, 7-Spd w/Manual Mode","$35,369 - $37,662",https://www.kbb.com/nissan/370z/2016/sport-tech/?vehicleid=409773&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe Touring Manual, 6-Spd","$34,938 - $37,207",https://www.kbb.com/nissan/370z/2016/touring/?vehicleid=409774&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe Touring Automatic, 7-Spd w/Manual Mode","$36,108 - $38,453",https://www.kbb.com/nissan/370z/2016/touring/?vehicleid=409776&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe NISMO Manual, 6-Spd","$38,764 - $41,269",https://www.kbb.com/nissan/370z/2016/nismo/?vehicleid=409778&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe NISMO Automatic, 7-Spd w/Manual Mode","$39,940 - $42,521",https://www.kbb.com/nissan/370z/2016/nismo/?vehicleid=409780&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe NISMO Tech Manual, 6-Spd","$41,805 - $44,516",https://www.kbb.com/nissan/370z/2016/nismo-tech/?vehicleid=409781&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Coupe NISMO Tech Automatic, 7-Spd w/Manual Mode","$42,977 - $45,764",https://www.kbb.com/nissan/370z/2016/nismo-tech/?vehicleid=409779&intent=buy-new&category=coupe
-SPORTS CARS,Nissan,370Z,"Roadster Base Automatic, 7-Spd w/Manual Mode","$38,405 - $40,900",https://www.kbb.com/nissan/370z/2016/base-style/?vehicleid=409769&intent=buy-new&category=convertible
-SPORTS CARS,Nissan,370Z,"Roadster Touring Manual, 6-Spd","$41,557 - $44,252",https://www.kbb.com/nissan/370z/2016/touring/?vehicleid=409775&intent=buy-new&category=convertible
-SPORTS CARS,Nissan,370Z,"Roadster Touring Automatic, 7-Spd w/Manual Mode","$42,728 - $45,499",https://www.kbb.com/nissan/370z/2016/touring/?vehicleid=409777&intent=buy-new&category=convertible
-SPORTS CARS,Nissan,370Z,"Roadster Touring Sport Manual, 6-Spd","$44,065 - $46,925",https://www.kbb.com/nissan/370z/2016/touring-sport/?vehicleid=409782&intent=buy-new&category=convertible
-SPORTS CARS,Nissan,370Z,"Roadster Touring Sport Automatic, 7-Spd w/Manual Mode","$45,235 - $48,171",https://www.kbb.com/nissan/370z/2016/touring-sport/?vehicleid=409783&intent=buy-new&category=convertible
+SPORTS CARS,Nissan,370Z,,,
 SPORTS CARS,Porsche,718 Boxster/ 718 Cayman,,,
-SPORTS CARS,Porsche,911,"Coupe Carrera 6-Cyl, 3.4 L Manual, 7-Spd Rear-Wheel Drive","$74,496 - $80,638",https://www.kbb.com/porsche/911/2016/carrera/?vehicleid=414953&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Carrera Black Edition 6-Cyl, 3.4 L Manual, 7-Spd Rear-Wheel Drive","$78,418 - $84,889",https://www.kbb.com/porsche/911/2016/carrera-black-edition/?vehicleid=414880&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Carrera 4 6-Cyl, 3.4 L Manual, 7-Spd All-Wheel Drive","$80,367 - $86,998",https://www.kbb.com/porsche/911/2016/carrera-4/?vehicleid=414948&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Carrera 4 Black Edition 6-Cyl, 3.4 L Manual, 7-Spd All-Wheel Drive","$84,154 - $91,057",https://www.kbb.com/porsche/911/2016/carrera-4-black-edition/?vehicleid=414913&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Carrera S 6-Cyl, 3.8 L Manual, 7-Spd Rear-Wheel Drive","$87,241 - $94,437",https://www.kbb.com/porsche/911/2016/carrera-s/?vehicleid=414950&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Targa 4 6-Cyl, 3.4 L Manual, 7-Spd All-Wheel Drive","$91,053 - $98,542",https://www.kbb.com/porsche/911/2016/targa-4/?vehicleid=414952&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Carrera 4S 6-Cyl, 3.8 L Manual, 7-Spd All-Wheel Drive","$93,110 - $100,792",https://www.kbb.com/porsche/911/2016/carrera-4s/?vehicleid=414949&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Carrera GTS 6-Cyl, 3.8 L Manual, 7-Spd Rear-Wheel Drive","$101,308 - $109,597",https://www.kbb.com/porsche/911/2016/carrera-gts/?vehicleid=414883&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Targa 4S 6-Cyl, 3.8 L Manual, 7-Spd All-Wheel Drive","$103,770 - $112,305",https://www.kbb.com/porsche/911/2016/targa-4s/?vehicleid=414878&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Carrera 4 GTS 6-Cyl, 3.8 L Manual, 7-Spd All-Wheel Drive","$106,436 - $115,222",https://www.kbb.com/porsche/911/2016/carrera-4-gts/?vehicleid=414884&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Targa 4 GTS 6-Cyl, 3.8 L Manual, 7-Spd All-Wheel Drive","$117,531 - $127,172",https://www.kbb.com/porsche/911/2016/targa-4-gts/?vehicleid=414892&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Turbo 6-Cyl, Twin Turbo, 3.8 L Automatic, 7-Spd w/PDK Manual Mode All-Wheel Drive","$137,297 - $148,590",https://www.kbb.com/porsche/911/2016/turbo/?vehicleid=414889&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe GT3 RS 6-Cyl, 4.0 L Automatic, 7-Spd w/PDK Manual Mode Rear-Wheel Drive","$169,978 - $176,950",https://www.kbb.com/porsche/911/2016/gt3-rs/?vehicleid=414912&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Coupe Turbo S 6-Cyl, Twin Turbo, 3.8 L Automatic, 7-Spd w/PDK Manual Mode All-Wheel Drive","$165,443 - $179,086",https://www.kbb.com/porsche/911/2016/turbo-s/?vehicleid=414906&intent=buy-new&category=coupe
-SPORTS CARS,Porsche,911,"Cabriolet Carrera 6-Cyl, 3.4 L Manual, 7-Spd Rear-Wheel Drive","$84,883 - $91,881",https://www.kbb.com/porsche/911/2016/carrera/?vehicleid=414954&intent=buy-new&category=convertible
-SPORTS CARS,Porsche,911,"Cabriolet Carrera Black Edition 6-Cyl, 3.4 L Manual, 7-Spd Rear-Wheel Drive","$86,886 - $94,058",https://www.kbb.com/porsche/911/2016/carrera-black-edition/?vehicleid=414890&intent=buy-new&category=convertible
-SPORTS CARS,Porsche,911,"Cabriolet Carrera 4 6-Cyl, 3.4 L Manual, 7-Spd All-Wheel Drive","$90,758 - $98,240",https://www.kbb.com/porsche/911/2016/carrera-4/?vehicleid=414955&intent=buy-new&category=convertible
-SPORTS CARS,Porsche,911,"Cabriolet Carrera 4 Black Edition 6-Cyl, 3.4 L Manual, 7-Spd All-Wheel Drive","$92,759 - $100,368",https://www.kbb.com/porsche/911/2016/carrera-4-black-edition/?vehicleid=414891&intent=buy-new&category=convertible
-SPORTS CARS,Porsche,911,"Cabriolet Carrera S 6-Cyl, 3.8 L Manual, 7-Spd Rear-Wheel Drive","$97,628 - $105,675",https://www.kbb.com/porsche/911/2016/carrera-s/?vehicleid=414951&intent=buy-new&category=convertible
-SPORTS CARS,Porsche,911,"Cabriolet Carrera 4S 6-Cyl, 3.8 L Manual, 7-Spd All-Wheel Drive","$103,782 - $112,317",https://www.kbb.com/porsche/911/2016/carrera-4s/?vehicleid=414888&intent=buy-new&category=convertible
-SPORTS CARS,Porsche,911,"Cabriolet Carrera GTS 6-Cyl, 3.8 L Manual, 7-Spd Rear-Wheel Drive","$112,220 - $121,377",https://www.kbb.com/porsche/911/2016/carrera-gts/?vehicleid=414881&intent=buy-new&category=convertible
-SPORTS CARS,Porsche,911,"Cabriolet Carrera 4 GTS 6-Cyl, 3.8 L Manual, 7-Spd All-Wheel Drive","$116,915 - $126,556",https://www.kbb.com/porsche/911/2016/carrera-4-gts/?vehicleid=414907&intent=buy-new&category=convertible
-SPORTS CARS,Porsche,911,"Cabriolet Turbo 6-Cyl, Twin Turbo, 3.8 L Automatic, 7-Spd w/PDK Manual Mode All-Wheel Drive","$148,115 - $160,298",https://www.kbb.com/porsche/911/2016/turbo/?vehicleid=414879&intent=buy-new&category=convertible
-SPORTS CARS,Porsche,911,"Cabriolet Turbo S 6-Cyl, Twin Turbo, 3.8 L Automatic, 7-Spd w/PDK Manual Mode All-Wheel Drive","$176,646 - $191,175",https://www.kbb.com/porsche/911/2016/turbo-s/?vehicleid=414935&intent=buy-new&category=convertible
+SPORTS CARS,Porsche,911,,,
 SPORTS CARS,Toyota,86/Subaru BRZ,,,
 SPORT SEDANS,Alfa Romeo,Giulia,,,
 SPORT SEDANS,Audi,A4/S4,,,
@@ -241,15 +73,5 @@ SPORT SEDANS,BMW,M235i,,,
 SPORT SEDANS,BMW,M3 and M4,,,
 SPORT SEDANS,Cadillac,ATS/ATS-V,,,
 SPORT SEDANS,Infiniti,Q60,,,
-SPORT SEDANS,Jaguar,F-Type,"Coupe Base V6, Supercharged, 3.0 L Manual, 6-Spd Rear-Wheel Drive","$56,376 - $61,760",https://www.kbb.com/jaguar/f-type/2016/base-style/?vehicleid=407434&intent=buy-new&category=coupe
-SPORT SEDANS,Jaguar,F-Type,"Coupe S V6, Supercharged, 3.0 L Manual, 6-Spd Rear-Wheel Drive","$66,880 - $73,267",https://www.kbb.com/jaguar/f-type/2016/s/?vehicleid=407437&intent=buy-new&category=coupe
-SPORT SEDANS,Jaguar,F-Type,"Convertible Base V6, Supercharged, 3.0 L Manual, 6-Spd Rear-Wheel Drive","$59,028 - $64,668",https://www.kbb.com/jaguar/f-type/2016/base-style/?vehicleid=407436&intent=buy-new&category=convertible
-SPORT SEDANS,Jaguar,F-Type,"Convertible S V6, Supercharged, 3.0 L Manual, 6-Spd Rear-Wheel Drive","$69,525 - $76,164",https://www.kbb.com/jaguar/f-type/2016/s/?vehicleid=407439&intent=buy-new&category=convertible
-SPORT SEDANS,Subaru,WRX,"WRX 4-Cyl, Turbo, 2.0 L Manual, 6-Spd","$25,441 - $26,636",https://www.kbb.com/subaru/wrx/2016/wrx/?vehicleid=409843&intent=buy-new&category=sedan
-SPORT SEDANS,Subaru,WRX,"WRX Premium 4-Cyl, Turbo, 2.0 L Manual, 6-Spd","$27,579 - $28,875",https://www.kbb.com/subaru/wrx/2016/wrx-premium/?vehicleid=409845&intent=buy-new&category=sedan
-SPORT SEDANS,Subaru,WRX,"WRX Premium 4-Cyl, Turbo, 2.0 L Automatic, CVT w/Lineartronic & Manual Modes","$28,693 - $30,044",https://www.kbb.com/subaru/wrx/2016/wrx-premium/?vehicleid=409846&intent=buy-new&category=sedan
-SPORT SEDANS,Subaru,WRX,"WRX Limited 4-Cyl, Turbo, 2.0 L Manual, 6-Spd","$29,229 - $30,592",https://www.kbb.com/subaru/wrx/2016/wrx-limited/?vehicleid=409847&intent=buy-new&category=sedan
-SPORT SEDANS,Subaru,WRX,"WRX Limited 4-Cyl, Turbo, 2.0 L Automatic, CVT w/Lineartronic & Manual Modes","$30,353 - $31,770",https://www.kbb.com/subaru/wrx/2016/wrx-limited/?vehicleid=409848&intent=buy-new&category=sedan
-SPORT SEDANS,Subaru,WRX,"WRX STI 4-Cyl, Turbo, 2.5 L Manual, 6-Spd","$33,528 - $35,079",https://www.kbb.com/subaru/wrx/2016/wrx-sti/?vehicleid=409850&intent=buy-new&category=sedan
-SPORT SEDANS,Subaru,WRX,"WRX STI Limited 4-Cyl, Turbo, 2.5 L Manual, 6-Spd (w/Low Profile Trunk Spoiler)","$37,888 - $39,671",https://www.kbb.com/subaru/wrx/2016/wrx-sti-limited/?vehicleid=409849&intent=buy-new&category=sedan
-SPORT SEDANS,Subaru,WRX,"WRX STI Limited 4-Cyl, Turbo, 2.5 L Manual, 6-Spd (w/Wing Spoiler)","$37,888 - $39,671",https://www.kbb.com/subaru/wrx/2016/wrx-sti-limited/?vehicleid=409851&intent=buy-new&category=sedan
+SPORT SEDANS,Jaguar,F-Type,,,
+SPORT SEDANS,Subaru,WRX,,,
