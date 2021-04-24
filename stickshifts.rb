@@ -8,7 +8,7 @@ require 'nokogiri';
 require 'csv'
 require 'active_support/core_ext/string'
 
-doc = Nokogiri::HTML open('http://bestride.com/research/buyers-guide/manual-transmission-availability-2016-2017')
+doc = Nokogiri::HTML URI.open('http://bestride.com/research/buyers-guide/manual-transmission-availability-2016-2017')
 
 def fetch_kbb(path)
   STDERR.puts path
@@ -16,7 +16,7 @@ def fetch_kbb(path)
   if !OpenURI::Cache.get(url)
     sleep(0.1) # dont hammer KBB
   end
-  Nokogiri::HTML(open(url))
+  Nokogiri::HTML(URI.open(url))
 rescue OpenURI::HTTPError => err
   #STDERR.puts "#{url} #{err.message}"
   nil
