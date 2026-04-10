@@ -1,5 +1,7 @@
 require 'open-uri/cached';
 require 'fileutils';
+require 'csv';
+
 
 OpenURI::Cache.cache_path = "#{File.dirname(__FILE__)}/tmp/cache"
 FileUtils.mkdir_p OpenURI::Cache.cache_path
