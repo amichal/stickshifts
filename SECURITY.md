@@ -6,4 +6,13 @@ Legit reports will get you at most a thanks for thie info ;).
 
 ## Reporting a Vulnerability
 
-There is a button here in github. Use it if you like.
+You may if you want report a vulnerabilty at https://github.com/amichal/stickshifts/security. 
+
+You should follow the intent and guide at https://github.com/ossf/oss-vulnerability-guide/blob/main/finder-guide.md 
+when reporting 
+
+I will do my best to follow the guide at https://github.com/ossf/oss-vulnerability-guide/blob/main/maintainer-guide.md in response. 
+
+Expect a fairly long timeline for me to respond as this product is not actively maintained. You may feel free to publicly disclose after 90 days.
+
+I do not particate in the CVE database or similar yet. This is just a personal project
