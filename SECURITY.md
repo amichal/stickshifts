@@ -15,4 +15,4 @@ I will do my best to follow the guide at https://github.com/ossf/oss-vulnerabili
 
 Expect a fairly long timeline for me to respond as this product is not actively maintained. You may feel free to publicly disclose after 90 days.
 
-I do not particate in the CVE database or similar yet. This is just a personal project
+I do not participate in the CVE database or similar yet. This is just a personal project.
