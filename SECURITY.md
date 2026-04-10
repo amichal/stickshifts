@@ -13,6 +13,6 @@ when reporting
 
 I will do my best to follow the guide at https://github.com/ossf/oss-vulnerability-guide/blob/main/maintainer-guide.md in response. 
 
-Expect a fairly long timeline for me to respond as this product is not actively maintained. You may feel free to publicly disclose after 90 days.
+Expect a fairly long timeline for me to respond as this product is not actively maintained. Please prefer coordinated disclosure: ideally, disclose once a fix or mitigation is available, or after we agree on a reasonable timeline. If I determine that no fix is planned, I will try to let you know so you can decide how to proceed.
 
 I do not participate in the CVE database or similar yet. This is just a personal project.
