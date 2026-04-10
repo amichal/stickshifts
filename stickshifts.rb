@@ -1,13 +1,10 @@
-require 'open-uri/cached';
-require 'fileutils';
-require 'csv';
-
+require 'bundler/setup'
+Bundler.require(:default)
 
 OpenURI::Cache.cache_path = "#{File.dirname(__FILE__)}/tmp/cache"
 FileUtils.mkdir_p OpenURI::Cache.cache_path
 
 require 'nokogiri';
-require 'csv'
 require 'active_support/core_ext/string'
 
 def fetch_kbb(path)
@@ -23,7 +20,7 @@ rescue OpenURI::HTTPError => err
 end
 
 if __FILE__ == $0
-  doc = Nokogiri::HTML URI.open('http://bestride.com/research/buyers-guide/manual-transmission-availability-2016-2017')
+  doc = Nokogiri::HTML URI.open('https://bestride.com/research/buyers-guide/manual-transmission-availability-2016-2017/')
 
   data = []
   categories = [
@@ -68,7 +65,7 @@ if __FILE__ == $0
     make = makers.detect do |m|
       name.include? m
     end || name.split(' ').first
-    model = name.gsub(make,'').strip.presence || name
+    model = name.gsub(make,'').strip || name
     funny_model_names = {
       ['Mazda','3'] => 'MAZDA3',
       ['Mazda','6'] => 'MAZDA6',
@@ -83,7 +80,7 @@ if __FILE__ == $0
     options = {}
     if (kbb_data = fetch_kbb(kbb_url))
       options = kbb_data.css('#Styles-dropdown-subtitle option').map do |n|
-        url = n['data-options-url'].presence
+        url = n['data-options-url']
         url ? [url, n.text] : nil
       end.compact.select do |k,v|
         v.include?('Manual') && !v.include?('2-door')

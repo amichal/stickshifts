@@ -25,6 +25,7 @@ GEM
       rexml
     csv (3.3.5)
     drb (2.2.3)
+    fileutils (1.8.0)
     hashdiff (1.2.1)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
@@ -76,6 +77,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   csv
+  fileutils
   minitest
   nokogiri
   open-uri-cached
