@@ -23,6 +23,7 @@ GEM
     crack (1.0.1)
       bigdecimal
       rexml
+    csv (3.3.5)
     drb (2.2.3)
     hashdiff (1.2.1)
     i18n (1.14.8)
@@ -74,6 +75,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
+  csv
   minitest
   nokogiri
   open-uri-cached
