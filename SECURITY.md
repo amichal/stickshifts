@@ -6,7 +6,7 @@ Legit reports will get you at most a thanks for thie info ;).
 
 ## Reporting a Vulnerability
 
-You may if you want report a vulnerabilty at https://github.com/amichal/stickshifts/security. 
+You may, if you want, report a vulnerability on GitHub at https://github.com/amichal/stickshifts/security. 
 
 You should follow the intent and guide at https://github.com/ossf/oss-vulnerability-guide/blob/main/finder-guide.md 
 when reporting 
