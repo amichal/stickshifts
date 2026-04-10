@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
-gem 'nokogiri'
-gem 'open-uri-cached'
+
 gem 'activesupport'
+gem 'csv'
+gem 'fileutils'
 gem 'minitest'
+gem 'nokogiri'
+gem 'open-uri-cached', require: 'open-uri/cached'
 gem 'webmock'
