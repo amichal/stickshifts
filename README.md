@@ -1,10 +1,19 @@
-# stickshiftsa
+# stickshifts
 
-A bit of screenscraping to figure out who still sold stick shift cars in 2017-2018 when we most recently wanted to buy one and for roughly how much.
+A bit of screen-scraping to figure out who still sold stick shift cars in 2017-2018 when we most recently wanted to buy one and for roughly how much.
 
 Recently been using this project as a exersize in upgrading the development practices of a stale project.
-As a result I know have a badge to add
+As a result I know have a badge to add:
+
+
 [![OpenSSF Baseline](https://www.bestpractices.dev/projects/12442/baseline)](https://www.bestpractices.dev/projects/12442)
+
+## Docker
+There is a docker image:
+```sh
+docker build -t stickshifts .
+docker run stickshifts
+```
 
 ## Running the tests locally
 
