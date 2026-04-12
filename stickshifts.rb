@@ -27,7 +27,7 @@ def fetch_nada(path)
   end
   Nokogiri::HTML(URI.open(url))
 rescue OpenURI::HTTPError => err
-  #STDERR.puts "#{url} #{err.message}"
+  STDERR.puts "#{url} #{err.message}"
   nil
 end
 
@@ -121,12 +121,15 @@ if __FILE__ == $0
     # report cars we cant find trims for so we can fix up
     # our lookup code for them later
     if options.size == 0
+      price = fetch_used_price(make, model, 2018) # just to verify we can get a price for it — if not, we'll need to fix that too\
+
       data << {
         category: @current_category,
         make: make,
         model: model,
         trim: nil,
         kbb_true_price: nil,
+        used_price: price,
         trim_url: nil,
       }
     else
@@ -143,10 +146,12 @@ if __FILE__ == $0
           model: model,
           trim: trim,
           kbb_true_price: kbb_true_price,
+          used_price: fetch_used_price(make, model, 2018),
           trim_url: "https://www.kbb.com#{trim_path}",
         }
       end
     end
+    pp data.last
   end
 
   puts data.first.keys.to_csv
