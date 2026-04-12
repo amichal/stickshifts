@@ -57,7 +57,7 @@ if __FILE__ == $PROGRAM_NAME
     nodes_checked = 0
     max_nodes_to_check = 100
     while desc_node && !desc_node.at_css('strong')
-      desc.concat desc_node.text
+      desc += desc_node.text
       nodes_checked += 1
       break if nodes_checked >= max_nodes_to_check
 
