@@ -7,17 +7,17 @@ OpenURI::Cache.cache_path = "#{File.dirname(__FILE__)}/tmp/cache"
 FileUtils.mkdir_p OpenURI::Cache.cache_path
 
 require 'nokogiri'
+require 'active_support/core_ext/object/blank'
 require 'active_support/core_ext/string'
 
 def fetch_kbb(path)
-  warn path
   url = "https://www.kbb.com#{path}"
   unless OpenURI::Cache.get(url)
     sleep(0.1) # dont hammer KBB
   end
   Nokogiri::HTML(URI.open(url))
-rescue OpenURI::HTTPError
-  # STDERR.puts "#{url} #{err.message}"
+rescue OpenURI::HTTPError => e
+  warn "#{url} #{e.message}"
   nil
 end
 
@@ -68,7 +68,7 @@ if __FILE__ == $PROGRAM_NAME
     make = makers.detect do |m|
       name.include? m
     end || name.split(' ').first
-    model = name.gsub(make, '').strip || name
+    model = name.gsub(make, '').strip.presence || name
     funny_model_names = {
       %w[Mazda 3] => 'MAZDA3',
       %w[Mazda 6] => 'MAZDA6',
@@ -104,7 +104,7 @@ if __FILE__ == $PROGRAM_NAME
     else
       # report pricing for each style group
       options.each do |url, trim|
-        trim_path = url.gsub('/options', '').to_s
+        trim_path = url.gsub('/options', '')
         kbb_true_price = nil
         if (trim_data = fetch_kbb(trim_path))
           kbb_true_price = trim_data.at_css('.market-info strong').try(:text)
