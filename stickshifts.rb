@@ -19,6 +19,37 @@ rescue OpenURI::HTTPError => err
   nil
 end
 
+def fetch_nada(path)
+  STDERR.puts path
+  url = "https://www.nadaguides.com#{path}"
+  if !OpenURI::Cache.get(url)
+    sleep(0.1) # don't hammer NADA
+  end
+  Nokogiri::HTML(URI.open(url))
+rescue OpenURI::HTTPError => err
+  #STDERR.puts "#{url} #{err.message}"
+  nil
+end
+
+# Returns the NADA average retail price for a used car as a string (e.g. "$12,345"),
+# or nil if the page or price element cannot be found.
+# NADA Guides URL format: /Cars/{year}/{Make}/{Model}/
+# Make and model use title-cased words joined by hyphens (e.g. "Alfa-Romeo", "CR-Z").
+def fetch_used_price(make, model, year)
+  nada_make  = make.split.map(&:capitalize).join('-')
+  nada_model = model.split.map(&:capitalize).join('-')
+  path = "/Cars/#{year}/#{nada_make}/#{nada_model}/"
+  return nil unless (doc = fetch_nada(path))
+
+  # NADA renders three price columns: Trade-In, Loan, and Retail.
+  # We want the Average Retail value — the closest equivalent to a
+  # fair used-car asking price.
+  doc.at_css('.price-section .retail .price-value, ' \
+             '.pricing-module [data-price-type="retail"], ' \
+             'td.retail-price, ' \
+             '.average-retail')&.text&.gsub(/[[:space:]]+/, '')
+end
+
 if __FILE__ == $0
   doc = Nokogiri::HTML URI.open('https://bestride.com/research/buyers-guide/manual-transmission-availability-2016-2017/')
 
