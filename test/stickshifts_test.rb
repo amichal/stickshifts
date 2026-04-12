@@ -1,8 +1,17 @@
+# frozen_string_literal: true
+
+require 'English'
 require 'minitest/autorun'
 require 'webmock/minitest'
 require_relative '../stickshifts'
 
 class StickshiftsTest < Minitest::Test
+  def test_executes_without_error
+    system(RbConfig.ruby, 'stickshifts.rb')
+
+    assert_equal 0, $CHILD_STATUS&.exitstatus
+  end
+
   def test_fetch_kbb_returns_parsed_html
     stub_request(:get, 'https://www.kbb.com/honda/civic/2018/')
       .to_return(status: 200, body: '<html><body><h1>Honda Civic</h1></body></html>')
