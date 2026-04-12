@@ -9,3 +9,9 @@ gem 'minitest'
 gem 'nokogiri'
 gem 'open-uri-cached', require: 'open-uri/cached'
 gem 'webmock'
+
+group :development, :test do
+  gem "bundler"
+  gem "ruby-lsp"
+  gem "rubocop"
+end
