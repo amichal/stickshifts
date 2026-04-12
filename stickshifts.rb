@@ -2,20 +2,18 @@
 
 require 'bundler/setup'
 Bundler.require(:default)
+require 'active_support/core_ext/object/blank'
+require 'active_support/core_ext/string'
 
 OpenURI::Cache.cache_path = "#{File.dirname(__FILE__)}/tmp/cache"
 FileUtils.mkdir_p OpenURI::Cache.cache_path
 
-require 'nokogiri'
-require 'active_support/core_ext/object/blank'
-require 'active_support/core_ext/string'
-
 def fetch_kbb(path)
-  url = "https://www.kbb.com#{path}"
+  url = URI.parse('https://www.kbb.com').merge(path)
   unless OpenURI::Cache.get(url)
-    sleep(0.1) # dont hammer KBB
+    sleep(0.1) # don't hammer KBB
   end
-  Nokogiri::HTML(URI.open(url))
+  Nokogiri::HTML(url.open)
 rescue OpenURI::HTTPError => e
   warn "#{url} #{e.message}"
   nil

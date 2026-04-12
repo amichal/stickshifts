@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'English'
 require 'minitest/autorun'
 require 'webmock/minitest'
@@ -5,9 +7,9 @@ require_relative '../stickshifts'
 
 class StickshiftsTest < Minitest::Test
   def test_executes_without_error
-    system('ruby stickshifts.rb')
+    system(RbConfig.ruby, 'stickshifts.rb')
 
-    assert_equal 0, $CHILD_STATUS.exitstatus
+    assert_equal 0, $CHILD_STATUS&.exitstatus
   end
 
   def test_fetch_kbb_returns_parsed_html
