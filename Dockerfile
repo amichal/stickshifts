@@ -1,4 +1,4 @@
-FROM ruby:4-alpine@sha256:b99166e463d6547bdccb2457cfd8af0d8b37c79d1fd1bee69cafcfd780e4a497
+FROM ruby:4-alpine@sha256:8c5f23c01573a3ef642f6a2f37bfee58b8613eb6782a745df5c1b5bf634180d2
 LABEL org.opencontainers.image.source=https://github.com/amichal/stickshifts
 LABEL org.opencontainers.image.authors="Aaron Michal"
 LABEL org.opencontainers.image.licenses="MIT"
